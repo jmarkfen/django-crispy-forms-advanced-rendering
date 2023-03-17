@@ -7,4 +7,5 @@ class TestView(TemplateView):
 class TestForm(FormView):
     template_name = 'form.html'
     form_class = forms.AddressForm
-    #success_url = '/'
+    success_url = '/'
+    

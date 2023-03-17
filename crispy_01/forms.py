@@ -20,4 +20,4 @@ class AddressForm(forms.Form):
     city = forms.CharField()
     state = forms.ChoiceField(choices=STATES)
     zip_code = forms.CharField(label='Zip')
-    check_me_out = forms.BooleanField(required=False)
+    check_me_out = forms.BooleanField(required=False, label='Check me')
